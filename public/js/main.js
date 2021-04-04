@@ -19,7 +19,7 @@ socket.on('roomUsers', ({room, users}) => {
     outputUsers(users);
 });
 
-// Message from Server
+// Message from Server track
 socket.on('message', (message) => {
     console.log(message);
     outputMessage(message);
